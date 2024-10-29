@@ -5,8 +5,8 @@ import ResumeBody from "../../ui/ResumeBody";
 
 const Resume = () => {
   return (
-    <div className="resume flex gap-20 overflow-scroll lg:overflow-hidden">
-    <div className="sidebar hidden md:block w-[300px] bg-[#964B00] h-[100vh]">
+    <div className="resume flex gap-20 overflow-scroll lg:overflow-hidden bg-gray-100">
+    <div className="sidebar hidden md:block w-[300px] h-[100vh]">
       <Sidebar />
     </div>
     <div className="body flex-1 py-10">

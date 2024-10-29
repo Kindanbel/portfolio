@@ -5,8 +5,8 @@ import ContactBody from "../../ui/ContactBody";
 
 const Contact = () => {
   return (
-    <div className="resume flex gap-20 overflow-scroll md:overflow-hidden">
-    <div className="sidebar hidden md:block w-[300px] bg-[#964B00] h-[100vh]">
+    <div className="resume flex gap-20 overflow-scroll md:overflow-hidden bg-gray-100">
+    <div className="sidebar hidden md:block w-[300px] h-[100vh]">
       <Sidebar />
     </div>
     <div className="body flex-1 py-10">

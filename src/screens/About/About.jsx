@@ -5,7 +5,7 @@ import AboutBody from "../../ui/AboutBody";
 
 const About = () => {
   return (
-    <div className="flex gap-20 relative">
+    <div className="flex gap-20 relative bg-gray-100">
       <div className="sidebar hidden md:block w-[300px] bg-[#964B00] h-[100vh]">
         <Sidebar />
       </div>

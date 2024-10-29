@@ -15,7 +15,7 @@ const ContactBody = () => {
 
       <div className="contact flex flex-col lg:flex-row justify-between items-center mt-10">
         <div className="web flex flex-col lg:flex-row gap-7 items-center">
-            <div className="image w-[300px] h-[250px]">
+            <div className="image w-[300px] h-[200px]">
                 <img src="/images/computer.jpg" alt="computer" className="w-[100%] h-[100%]" />
             </div>
             <div className="con flex flex-col gap-2 text-[17px] font-[500]">

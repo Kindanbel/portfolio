@@ -9,7 +9,7 @@ const Portfoliotiles = (prop) => {
         if (prop.category === "All" || prop.category === port.category) {
           return (
             <div
-              className="w-fit max-w-[100%] h-fit bg-[#964B00] p-2 rounded-lg text-white flex flex-col gap-2"
+              className="w-fit max-w-[100%] h-fit bg-[#0d3d13] p-2 rounded-lg text-white flex flex-col gap-2"
               key={port.id}
             >
               <div className=" font-[500] text-[20px]">{port.name}</div>

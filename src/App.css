@@ -4,14 +4,14 @@
 
 
 .screen2{
-    background-image: url("images/Person.JPG");
+    background-image: url("images/person2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .sidebarimg{
-    background-image: url("images/Person.JPG");
+    background-image: url("images/person2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,4 +19,11 @@
 
 .resume::-webkit-scrollbar{
     appearance: none;
+}
+
+.homeScreen{
+    background-image: url("images/bg-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

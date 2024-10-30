@@ -5,21 +5,21 @@ import PorfolioBody from "../../ui/PorfolioBody";
 
 const Portfolio = () => {
   return (
-    <div className="resume flex gap-20 overflow-scroll md:overflow-hidden bg-gray-100">
-    <div className="sidebar hidden md:block w-[300px] h-[100vh]">
-      <Sidebar />
-    </div>
-    <div className="body flex-1 py-10">
-      <div className="title px-5 md:px-0">
-        <Title title="PORTFOLIO" />
-        <PorfolioBody />
+    <div className="resume flex lg:gap-5 2xl:gap-20 overflow-scroll md:overflow-hidden bg-gray-100">
+      <div className="sidebar hidden lg:block w-[300px] h-[100vh]">
+        <Sidebar />
+      </div>
+      <div className="body flex-1 py-10 overflow-scroll lg:pr-5 xl:pr-0">
+        <div className="title px-5 lg:px-0">
+          <Title title="PORTFOLIO" />
+          <PorfolioBody />
+        </div>
+      </div>
+      <div className="navbar w-[100%] lg:w-[5%] lg:py-[100px] lg:pr-[2%] md:px-5 lg:px-0 fixed bottom-2 lg:hidden xl:block xl:relative">
+        <NavBar />
       </div>
     </div>
-    <div className="navbar navbar w-[100%] md:w-[5%] md:py-[150px] md:pr-[2%] fixed bottom-2 md:relative">
-      <NavBar />
-    </div>
-  </div>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;

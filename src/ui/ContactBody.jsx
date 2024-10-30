@@ -13,20 +13,20 @@ const ContactBody = () => {
         </p>
       </div>
 
-      <div className="contact flex flex-col lg:flex-row justify-between items-center mt-10">
-        <div className="web flex flex-col lg:flex-row gap-7 items-center">
+      <div className="contact flex flex-col xl:flex-row justify-between items-start xl:items-center mt-10">
+        <div className="web flex flex-col lg:flex-row gap-3 items-center">
             <div className="image w-[300px] h-[200px]">
-                <img src="/images/computer.jpg" alt="computer" className="w-[100%] h-[100%]" />
+                <img src="/images/computer 1.png" alt="computer" className="w-[100%] h-[100%]" />
             </div>
             <div className="con flex flex-col gap-2 text-[17px] font-[500]">
                 <span className="email"> <span>Email:</span> onahabel@yahoo.com</span>
                 <span className="github"> <span>Github:</span> github.com/Kindanbel</span>
-                <span className="twitter"> <span>x:</span> @_AbelDaniels</span>
+                <span className="twitter"> <span>x:</span> @AbelDaniels_</span>
             </div>
         </div>
-        <div className="phone flex flex-col lg:flex-row gap-7 items-center">
+        <div className="phone flex flex-col lg:flex-row gap-3 items-center">
         <div className="image w-[300px] h-[300px]">
-                <img src="/images/phone.jpg" alt="computer" className="w-[100%] h-[100%]" />
+                <img src="/images/phone 1.png" alt="computer" className="w-[100%] h-[100%]" />
             </div>
             <div className="con flex flex-col gap-2 text-[17px] font-[500]">
                 <span className="email"> <span>Tel:</span> +234 9066257597</span>

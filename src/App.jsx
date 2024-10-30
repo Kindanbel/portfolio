@@ -19,12 +19,13 @@ function App() {
     }, 2000); // Adjust the delay as needed
   }, []);
 
-  if (loading) {
+  {/*if (loading) {
     return <Preloader />;
-  }
+  } */}
   
   return (
     <>
+    <div className="overflow-hidden">
       <BrowserRouter>
       {loading && <Preloader />} {/* Show Preloader while loading */}
         <Routes>
@@ -35,6 +36,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      </div>
     </>
   );
 }

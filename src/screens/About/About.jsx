@@ -9,7 +9,7 @@ const About = () => {
       <div className="sidebar hidden lg:block w-[300px] h-[100vh]">
         <Sidebar />
       </div>
-      <div className="body flex-1 py-10 overflow-scroll lg:pr-5 xl:pr-0">
+      <div className="body flex-1 py-10 lg:pr-5 xl:pr-0">
         <div className="title px-5 lg:px-0">
           <Title title="ABOUT ME" />
           <AboutBody />

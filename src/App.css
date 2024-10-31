@@ -21,6 +21,10 @@
     appearance: none;
 }
 
+.body::-webkit-scrollbar{
+    appearance: none;
+}
+
 .homeScreen{
     background-image: url("/images/bg-img.jpg");
     background-position: center;

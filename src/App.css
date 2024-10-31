@@ -4,14 +4,14 @@
 
 
 .screen2{
-    background-image: url("images/person2.jpg");
+    background-image: url("/images/person2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .sidebarimg{
-    background-image: url("images/person2.jpg");
+    background-image: url("/images/person2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 }
 
 .homeScreen{
-    background-image: url("images/bg-img.jpg");
+    background-image: url("/images/bg-img.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -20,7 +20,7 @@ const AboutBody = () => {
       </div>
 
       <div className="flex flex-col xl:flex-row gap-7 mt-10">
-        <div className="tab w-[100%] xl:w-[60%] h-[400px] bg-[url('images/bg-img.jpg')] bg-no-repeat bg-center bg-cover bg-blend-overlay bg-[rgba(10,10,10,0.65)] flex flex-col lg:flex-row gap-5 items-center lg:justify-between px-[5%] lg:py-32  ">
+        <div className="tab w-[100%] xl:w-[60%] h-[400px] bg-[url('/images/bg-img.jpg')] bg-no-repeat bg-center bg-cover bg-blend-overlay bg-[rgba(10,10,10,0.65)] flex flex-col lg:flex-row gap-5 items-center lg:justify-between px-[5%] lg:py-32  ">
           <div className="section1 text-white flex flex-col items-center lg:border-r-2 lg:border-solid lg:border-white lg:pr-[20%]">
             <span className="text-[80px]">2+</span>
             <span className="text-[20px]">Years of Experience</span>

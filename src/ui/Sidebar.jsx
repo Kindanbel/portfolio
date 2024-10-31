@@ -31,7 +31,7 @@ const links = [
 
 const Sidebar = () => {
   return (
-    <div className="h-[100vh] bg-[url('images/bg-img.jpg')] bg-no-repeat bg-center bg-cover bg-blend-overlay bg-[rgba(10,10,10,0.65)]">
+    <div className="h-[100vh] bg-[url('/images/bg-img.jpg')] bg-no-repeat bg-center bg-cover bg-blend-overlay bg-[rgba(10,10,10,0.65)]">
       <div className="sidebarimg w-[300px] h-[300px] bg-blend-overlay bg-[rgba(10,10,10,0.25)]">
         
       </div>

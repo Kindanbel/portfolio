@@ -16,7 +16,7 @@ const navItems = [
 
 const NavBar = () => {
   return (
-    <nav className="navlinks w-[100%] lg:w-fit rounded-full bg-[url('images/bg-img.jpg')] bg-no-repeat bg-center bg-cover bg-blend-overlay bg-[rgba(10,10,10,0.65)]">
+    <nav className="navlinks w-[100%] lg:w-fit rounded-full bg-[url('/images/bg-img.jpg')] bg-no-repeat bg-center bg-cover bg-blend-overlay bg-[rgba(10,10,10,0.65)]">
       <ul className="lists flex flex-row lg:flex-col gap-3 lg:gap-5 py-2 px-10 lg:px-5 lg:py-5 items-center justify-between lg:justify-center">
         {navItems.map((item, index) => (
           <div key={item.id}>
